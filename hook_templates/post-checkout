@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if (./version_xlsx convert_to_excel); then
+  echo "post-checkout success"
+  exit 0
+else
+  echo "post-checkout failed"
+  exit 1
+fi

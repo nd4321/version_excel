@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if (./version_xlsx convert_to_yml); then
+  echo "pre-commit success"
+  git add .
+  exit 0
+else
+  echo "pre-commit failed"
+  exit 1
+fi

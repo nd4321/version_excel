@@ -1,0 +1,12 @@
+options: 
+  enabled: True
+  convert_xlsx: True
+  convert_xlsm: True
+  convert_vba_separate_file: True
+  enable_logging: True
+  logfile: '../version_log.txt'
+exclude_directories:
+  - "New folder"
+  - ".git"
+  - "utils"
+  - "sample_sheets"
