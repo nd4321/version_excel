@@ -67,7 +67,7 @@ exclude_directories:
 ```
 
 ## Part II: Usage and Output
-Proceed to edit and update Excel Workbooks within your repo, always ensure that you save and exit the workbook before committing your changes to source control.  You can commit changes as usual through either Git, GithHub Desktop or another application. Note that GitHub desktop does not currently allow an empty commit so other changes must be present on the branch to create a commit from the interface. From terminal an empty commit can be created as shown below:
+Proceed to edit and update Excel Workbooks within your repo, always ensure that you save and exit the workbook before committing your changes to source control.  You can commit changes as usual through either Git, GitHub Desktop or another application. Note that GitHub desktop does not currently allow an empty commit so other changes must be present on the branch to create a commit from the interface. From terminal an empty commit can be created as shown below:
 ```
 git commit --allow-empty -m "message"
 ```
