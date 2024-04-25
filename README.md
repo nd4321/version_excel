@@ -128,6 +128,27 @@ In the majority of cases, the size of commits will be smaller after the workbook
 | TheSEOChecklistTemplate-V2-0                    | 81,833               | 131,900            | \-61.18%      |       |
 | UKEnergyinBrief2022dataset                      | 324,837              | 222,880            | 31.39%        |
 
+Additional Testing Data (Testing Round 4)
+
+| Workbook Name                                           | Commit Excel (Bytes) | Commit YML (Bytes) | Space Savings | Notes |
+| ------------------------------------------------------- | -------------------- | ------------------ | ------------- | ----- |
+| 15577298                                                | 17,976               | 5,599              | 68.85%        |       |
+| 2021-03-forecast-outlook-tables                         | 29,997               | \-4,608            | 115.36%       |       |
+| 2021-Distribution-Rates-Database                        | 216,179              | 86,962             | 59.77%        |       |
+| 7c93adb5-en                                             | 36,111               | 39,721             | \-10.00%      |       |
+| aisc-shapes-database-v15.0                              | 1,217,588            | 886,183            | 27.22%        |       |
+| budget-2022-fiscal-plan-economic-outlook-tables-2022-25 | 160,365              | 43,765             | 72.71%        |       |
+| cgfs60-datasets                                         | 165,008              | 15,805             | 90.42%        |       |
+| database-of-treatment-effects-excel-2610552205          | 243,976              | 346,142            | \-41.88%      |       |
+| exsituap10                                              | 218,953              | 30,464             | 86.09%        |       |
+| FID-Data-Use-Matrix                                     | 13,525               | 639                | 95.28%        |       |
+| Fraser-Institute-Economic-Freedom-Citations-2023        | 75,550               | \-125              | 100.17%       |       |
+| JSTOR-BusinessIVCollection-2024-04-25                   | 19,760               | 30,515             | \-54.43%      |       |
+| measuring-monetary-policy-in-the-uk-the-ukmpesd         | 198,828              | \-5,880            | 102.96%       |       |
+| MeasuringBiodiversityDatabase                           | 178,791              | 54,108             | 69.74%        |       |
+| newlevy                                                 | 8,993                | 259                | 97.12%        |
+
+
 ## Demonstration 
 
 https://github.com/nd4321/version_excel/assets/16249888/d6fb382d-07df-4283-9e98-5b98df4f511c
