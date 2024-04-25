@@ -101,6 +101,9 @@ def write_workbook_to_yml(workbook_path, vba_convert):
     fpath, extension  = os.path.splitext(workbook_path)
     output_path = set_temp_folder()
 
+    if extension not in ['.xlsm']:
+        vba_convert = False
+
     ymlFilename = '{0}{1}.yml'.format(fpath, extension)
     # Remove previously created YML file     
     if not delete_file_safe(ymlFilename):
@@ -328,16 +331,24 @@ to the downstream functions for execution. If an error code is returned (indicat
 by a sys.exit code other than zero) then the git hook will also produce an error 
 and display an error message to the user. 
 """
-if len(sys.argv) != 2:
+if len(sys.argv) < 2:
     sys.exit(1)
 
 input_arg = sys.argv[1]
-if input_arg not in ['convert_to_excel', 'convert_to_yml']:
-    print('Invalid arguments')
+if input_arg in ['convert_to_excel', 'convert_to_yml']:
+    result = entry_point(input_arg)
+    sys.exit(result)
+elif input_arg in ['convert_to_yml_in_place']:
+    if len(sys.argv) != 3:
+        sys.exit(1)
+    input_file = sys.argv[2]
+    if input_file.endswith(('.xlsx', '.xlsm')):
+        result = write_workbook_to_yml(input_file, False)
+        os.remove(input_file)
+        sys.exit(0)
+else:
     sys.exit(1)
 
-result = entry_point(input_arg)
-sys.exit(result)
 
 
 

@@ -152,7 +152,7 @@ Runs the versioning script to convert files in the source folder into YML format
 def convert_to_yml(sFolder): # Converts a folder from Excel to YML
 	for item in os.listdir(sFolder):
 		if not os.path.isdir(item):
-			cmd1 = 'version_xlsx.exe {0}'.format(os.path.join(sFolder,item))
+			cmd1 = 'version_xlsx.exe convert_to_yml_in_place {0}'.format(os.path.join(sFolder,item))
 			os.system(cmd1)
 
 """
