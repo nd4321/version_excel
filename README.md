@@ -133,7 +133,6 @@ Additional Testing Data (Testing Round 4)
 | Workbook Name                                           | Commit Excel (Bytes) | Commit YML (Bytes) | Space Savings | Notes |
 | ------------------------------------------------------- | -------------------- | ------------------ | ------------- | ----- |
 | 15577298                                                | 17,976               | 5,599              | 68.85%        |       |
-| 2021-03-forecast-outlook-tables                         | 29,997               | \-4,608            | 115.36%       |       |
 | 2021-Distribution-Rates-Database                        | 216,179              | 86,962             | 59.77%        |       |
 | 7c93adb5-en                                             | 36,111               | 39,721             | \-10.00%      |       |
 | aisc-shapes-database-v15.0                              | 1,217,588            | 886,183            | 27.22%        |       |
@@ -142,9 +141,7 @@ Additional Testing Data (Testing Round 4)
 | database-of-treatment-effects-excel-2610552205          | 243,976              | 346,142            | \-41.88%      |       |
 | exsituap10                                              | 218,953              | 30,464             | 86.09%        |       |
 | FID-Data-Use-Matrix                                     | 13,525               | 639                | 95.28%        |       |
-| Fraser-Institute-Economic-Freedom-Citations-2023        | 75,550               | \-125              | 100.17%       |       |
 | JSTOR-BusinessIVCollection-2024-04-25                   | 19,760               | 30,515             | \-54.43%      |       |
-| measuring-monetary-policy-in-the-uk-the-ukmpesd         | 198,828              | \-5,880            | 102.96%       |       |
 | MeasuringBiodiversityDatabase                           | 178,791              | 54,108             | 69.74%        |       |
 | newlevy                                                 | 8,993                | 259                | 97.12%        |
 
